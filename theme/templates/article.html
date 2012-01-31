@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}:-T {{ article.title }}{% endblock %}
+
+{% block content %}
+
+    <h1>{{ article.title }} </h1>
+
+    {% include 'lib/taglist.html' %}
+
+    <div>
+        {{ article.content }}
+    </div>
+
+    <h2 id="date">
+        {{ article.date.strftime('%B %d, %Y') }} by {{ AUTHOR }}
+    </h2>
+
+    <ul class="horizontal">
+
+        {% if not article == articles[-1] %}
+            <li>
+                <a href="/{{ articles[ articles.index(article) + 1].url}}"
+                    rel="prev">&laquo; Previous </a>
+            </li>
+        {% endif %}
+
+        {% if (articles.index(article) - 1) >= 0 %}
+            <li>
+                <a href="/{{ articles[ articles.index(article) - 1].url}}"
+                    rel="next">Next &raquo;</a>
+            </li>
+        {% endif %}
+
+    </ul>
+
+{% endblock %}
+

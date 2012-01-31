@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>:-Tony S. Yu</title><link href="http://tonysyu.com" rel="alternate"></link><link href="http://tonysyu.com/feeds/all-en.atom.xml" rel="self"></link><id>http://tonysyu.com</id><updated>2012-01-29T22:01:27Z</updated><entry><title>Matplotlib colormaps</title><link href="http://tonysyu.com/matplotlib-colormaps.html" rel="alternate"></link><updated>2012-01-29T22:01:27Z</updated><author><name>Tony S. Yu</name></author><id>tag:tonysyu.com,2012-01-29:/matplotlib-colormaps.html/</id><summary type="html">&lt;h2&gt;Binary colormaps&lt;/h2&gt;
+&lt;h2&gt;Diverging colormaps&lt;/h2&gt;
+&lt;h2&gt;Sequential colormaps&lt;/h2&gt;</summary><category term="matplotlib"></category><category term="color"></category></entry><entry><title>Line-color cycling</title><link href="http://tonysyu.com/line-color-cycling.html" rel="alternate"></link><updated>2012-01-29T14:52:20Z</updated><author><name>Tony S. Yu</name></author><id>tag:tonysyu.com,2012-01-29:/line-color-cycling.html/</id><summary type="html">&lt;h2&gt;Evolving curves&lt;/h2&gt;
+&lt;p&gt;For example....&lt;/p&gt;
+&lt;h2&gt;Varying parameter&lt;/h2&gt;
+&lt;p&gt;Plotting curves that vary with a parameter.&lt;/p&gt;</summary><category term="matplotlib"></category><category term="line plots"></category></entry><entry><title>Favorite vim commands</title><link href="http://tonysyu.com/favorite-vim-commands.html" rel="alternate"></link><updated>2012-01-29T14:47:24Z</updated><author><name>Tony S. Yu</name></author><id>tag:tonysyu.com,2012-01-29:/favorite-vim-commands.html/</id><summary type="html">&lt;h2&gt;Normal mode&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;.&lt;/code&gt;: repeat command&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I use this frequently to replace the more cumbersome multiplier
+  convention. For example, instead of &lt;code&gt;d3w&lt;/code&gt; to delete 3 words in front
+  of the cursor, I would most likely use &lt;code&gt;dw..&lt;/code&gt; to delete next word and
+  repeat twice. I find this to be much easier than counting letters,
+  words, lines, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;;&lt;/code&gt;: repeat last line-search movement&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;By line-search movment, I mean &lt;code&gt;f&lt;/code&gt;, &lt;code&gt;F&lt;/code&gt;, &lt;code&gt;t&lt;/code&gt;, &lt;code&gt;T&lt;/code&gt; commands. If I want
+  to &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;g;&lt;/code&gt;: go to previous edit&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;With other text editors, I find myself using undo to find a place in
+  a file. If you just want to go back to the last edited position,
+  that's not a bad solution. But, if you want to go to the edit before
+  that, then it gets difficult (because you have to redo (or undo?) the
+  previous "undo"s). With vim, you can just do &lt;code&gt;g;g;&lt;/code&gt;---repeat as
+  necessary.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="vim"></category></entry></feed>
