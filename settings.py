@@ -21,14 +21,15 @@ LINKS = (('About me', 'pages/about-me.html'),
          ('Art', 'pages/art.html'),
          )
 
-SOCIAL = (('github', 'http://github.com/tonysyu'),)
-
-# global metadata to all the contents
-#DEFAULT_METADATA = (('yeah', 'it is'),)
+# currently unused:
+ALT_LINKS = (('github', 'http://github.com/tonysyu'),)
 
 # static paths will be copied under the same name
 #STATIC_PATHS = ["pictures",]
 
 # A list of files to copy from the source to the destination
 #FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+
+# Tracker ID for Google Analytics
+#GOOGLE_ANALYTICS = 'Tracker ID'
 
