@@ -13,6 +13,9 @@ html, just run:
 
     pelican path/to/content
 
+This command renders html files to a directory called "output", which is
+a self-contained version of the website.
+
 
 Customization
 =============
