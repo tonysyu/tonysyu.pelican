@@ -1,6 +1,7 @@
 Title: Favorite vim commands
 Author: Tony S. Yu
 Tags: vim
+Status: draft
 
 
 Normal mode

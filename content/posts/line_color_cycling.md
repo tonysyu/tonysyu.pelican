@@ -1,6 +1,8 @@
 Title: Line-color cycling
 Author: Tony S. Yu
 Tags: matplotlib, line plots
+Status: draft
+
 
 Evolving curves
 ---------------
