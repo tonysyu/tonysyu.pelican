@@ -22,7 +22,7 @@ LINKS = (('About me', 'pages/about-me.html'),
          ('Research', 'pages/research.html'),
          ('Articles', 'index.html'),
          ('Design', 'pages/design.html'),
-         ('Art', 'pages/art.html'),
+         #('Art', 'pages/art.html'),
          )
 
 # currently unused:
