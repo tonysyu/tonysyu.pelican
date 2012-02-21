@@ -2,12 +2,10 @@
 About me
 ========
 
-Welcome!
-
-This site is just a hodgepodge of pages I post when I get on a web-design kick. Right now, I'm playing around with Pelican to build this website.
-
-This is my thinking face ➝ `:-T`
-
+I'm a mechanical engineer specializing in fluid mechanics. During the course
+of my Ph.D., I became a Python_ enthusiast. I'm the author of mpltools_ and
+a collaborator for skimage_. I've also contributed patches and enhancements to
+Matplotlib_, NumPy_, SciPy_, FiPy_, and Quantities_.
 
 Contact Info
 ============
@@ -19,4 +17,12 @@ Contact Info
     Brown School of Engineering
     tonysyu@brown.edu
 
-.. _Pelican: http://readthedocs.org/docs/pelican/en/2.7.2/
+.. _Python: http://python.org/
+.. _mpltools: http://readthedocs.org/docs/mpltools/en/latest/
+.. _Matplotlib: http://matplotlib.sourceforge.net/
+.. _skimage: http://scikits-image.org/
+.. _NumPy: http://numpy.scipy.org/
+.. _SciPy: http://www.scipy.org/SciPy
+.. _FiPy: http://www.ctcms.nist.gov/fipy/
+.. _Quantities: http://packages.python.org/quantities/
+
