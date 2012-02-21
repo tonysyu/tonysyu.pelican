@@ -30,8 +30,10 @@
                     src="/{{ SITEURL }}/theme/tonysyu.png"></a>
             </h1>
             <ul class="fakelist">
-                {% for item in  LINKS %}
-                    <li><a href={{ item[1] }}>{{ item[0] }}</a></li>
+                {% for name, url in  LINKS %}
+                    <li>
+                        <a href="{{ SITEURL }}/{{ url }}">{{ name }}</a>
+                    </li>
                 {% endfor %}
                 <li><a href="mailto:me@tonysyu.com">Contact</a></li>
             </ul>
