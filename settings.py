@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
 # Note: All configuration keys have to be in caps.
 AUTHOR = u'Tony S. Yu'
-SITENAME = u":-Tony S. Yu"
+SITENAME = u"Tony S. Yu"
 SITEURL = 'http://tonysyu.com'
+SITETAG = u":-T"
 COPYRIGHT = "&copy; 2012 Tony S. Yu."
+
+#LOGOIMAGE = 'theme/logo.png'
+#LOGOTEXT = u":-T"
 
 GITHUB_URL = 'http://github.com/tonysyu/'
 PDF_GENERATOR = False
