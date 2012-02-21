@@ -5,6 +5,7 @@ SITENAME = u"Tony S. Yu"
 SITEURL = 'http://tonysyu.com'
 SITETAG = u":-T"
 COPYRIGHT = "&copy; 2012 Tony S. Yu."
+TIMEZONE = "America/New_York"
 
 #LOGOIMAGE = 'theme/logo.png'
 #LOGOTEXT = u":-T"
