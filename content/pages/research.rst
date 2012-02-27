@@ -8,18 +8,29 @@ Post-doctoral Research at Brown University
 
 with Prof. Kenny Breuer (Winter 2011--Present)
 
+.. image:: images/research/fog_tunnel_thumb.png
+   :alt: Crystal needle growth
+   :target: images/research/fog_tunnel.png
+
+.. image:: images/research/accumulation_on_textured_and_flat_thumb.jpg
+   :alt: Crystal needle growth
+   :target: images/research/accumulation_on_textured_and_flat.jpg
+
+
 Fog capture
 -----------
 
 Fog capture is desirable as a water resource in remote areas that receive
 a large amount of fog, such as the Namib desert and the mountains of Peru. In
 addition, fog removal is attractive around roadways and airports to to improve
-visibility and reduce traffic accidents & delays.
+visibility and reduce traffic accidents & delays. Finally, fog can ruin the
+favorable wetting properties of hydrophobic, micro-textured substrates.
 
 For this project, I constructed a wind tunnel for imaging flows with
 micron-sized droplets suspended in air (i.e. fog). In order to characterize the
-flow and measure the accumulation of water on substrates, I implemented
-particle-tracking and circle-finding algorithms.
+flow and measure the accumulation of water on substrates on flat and
+micro-textured, I implemented particle-tracking and circle-finding algorithms
+in Python.
 
 
 Ph.D. Research at MIT
