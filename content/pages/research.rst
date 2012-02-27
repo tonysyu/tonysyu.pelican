@@ -9,11 +9,9 @@ Post-doctoral Research at Brown University
 with Prof. Kenny Breuer (Winter 2011--Present)
 
 .. image:: images/research/fog_tunnel_thumb.png
-   :alt: Crystal needle growth
    :target: images/research/fog_tunnel.png
 
 .. image:: images/research/accumulation_on_textured_and_flat_thumb.jpg
-   :alt: Crystal needle growth
    :target: images/research/accumulation_on_textured_and_flat.jpg
 
 
@@ -40,11 +38,9 @@ with Ph.D. advisor A. E. Hosoi and Prof. Vladimir Bulović
 (Fall 2007--Fall 2010)
 
 .. image:: images/research/needle_sequence_thumb.png
-   :alt: Crystal needle growth
    :target: images/research/needle_sequence.png
 
 .. image:: images/research/film_evolution_thumb.png
-   :alt: Crystal needle growth
    :target: images/research/film_evolution.png
 
 
@@ -129,6 +125,18 @@ Master's Research at MIT
 ========================
 
 with thesis advisor A. E. Hosoi and Prof. Eric Lauga (Fall 2004--Fall 2006)
+
+.. image:: images/research/swimmer_experiment_thumb.png
+   :target: images/research/swimmer_experiment.png
+
+
+.. image:: images/research/swimmer_tail_diagram_thumb.png
+   :target: images/research/swimmer_tail_diagram.png
+
+
+.. image:: images/research/swimmer_data_thumb.png
+   :target: images/research/swimmer_data.png
+
 
 Elastic-tail swimming at low Reynolds number
 --------------------------------------------
