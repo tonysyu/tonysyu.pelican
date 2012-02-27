@@ -6,23 +6,59 @@ Research
 Post-doctoral Research at Brown University
 ==========================================
 
-with Prof. Kenny Breuer
+with Prof. Kenny Breuer (Winter 2011--Present)
 
 Fog capture
 -----------
 
-Add description.
+Fog capture is desirable as a water resource in remote areas that receive
+a large amount of fog, such as the Namib desert and the mountains of Peru. In
+addition, fog removal is attractive around roadways and airports to to improve
+visibility and reduce traffic accidents & delays.
+
+For this project, I constructed a wind tunnel for imaging flows with
+micron-sized droplets suspended in air (i.e. fog). In order to characterize the
+flow and measure the accumulation of water on substrates, I implemented
+particle-tracking and circle-finding algorithms.
 
 
-PhD Research at MIT
-===================
+Ph.D. Research at MIT
+=====================
 
-with Ph.D. advisor A. E. Hosoi (Fall 2007--Present)
+with Ph.D. advisor A. E. Hosoi and Prof. Vladimir Bulović
+(Fall 2007--Fall 2010)
+
+.. image:: images/research/needle_sequence_thumb.png
+   :alt: Crystal needle growth
+   :target: images/research/needle_sequence.png
+
+.. image:: images/research/film_evolution_thumb.png
+   :alt: Crystal needle growth
+   :target: images/research/film_evolution.png
+
 
 Simulations of organic-crystal-needle formation via solvent-vapor annealing
 ---------------------------------------------------------------------------
 
-Add description.
+Organic semiconductors are attractive materials for creating flexible,
+light-weight, and transparent electronic at low costs. In addition, single
+crystals of the semiconductor increases charge-carrier mobility and can promote
+nonlinear optical phenomena.
+
+For my Ph.D., I constructed an experiment to measure the growth rates of
+single-crystal needles of tris(8-hydroxyquinoline) aluminum---i.e. Alq, an
+organic semiconductor commonly used in organic LEDs---during annealing in
+methanol-vapor. I modeled this system as a thin, liquid film composed of
+a mixture of Alq & methanol and driven by intermolecular forces,
+surface-tension, & diffusion. Simulations based on this model compared
+favorably with experimental measurements. See my `PhD thesis`_ for details.
+
+.. image:: images/research/phd_thesis.png
+   :class: border
+   :target: `PhD thesis`_
+   :alt: Crystal growth thesis
+
+.. _PhD thesis: includes/tsy_phd_mech_2010.pdf
 
 
 MIT 18.358: Hydrodynamics and Elasticity (class project)
@@ -54,6 +90,7 @@ MIT 18.358: Hydrodynamic Stability and Turbulence (Class Project)
 with Prof. Eric Lauga (Spring 2007)
 
 .. image:: images/research/flappingsequence.jpg
+   :target: images/research/flappingsequence_750px.jpg
 
 Transition from drag to thrust in a flapping foil
 -------------------------------------------------
@@ -91,10 +128,12 @@ a link to my `quals presentation`_ and my `master's thesis`_; both of which talk
 about my swimmer:
 
 .. image:: images/research/Quals.png
+   :class: border
    :target: `quals presentation`_
    :alt: Elastic tail swimming presentation (quals)
 
 .. image:: images/research/thesis.png
+   :class: border
    :target: `master's thesis`_
    :alt: Elastic tail master's thesis
 
