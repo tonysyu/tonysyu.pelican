@@ -48,7 +48,7 @@ Simulations of organic-crystal-needle formation via solvent-vapor annealing
 ---------------------------------------------------------------------------
 
 Organic semiconductors are attractive materials for creating flexible,
-light-weight, and transparent electronic at low costs. In addition, single
+light-weight, and transparent electronics at low costs. In addition, single
 crystals of the semiconductor increases charge-carrier mobility and can promote
 nonlinear optical phenomena.
 
