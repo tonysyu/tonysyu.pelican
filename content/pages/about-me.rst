@@ -18,7 +18,7 @@ Contact Info
     tonysyu@brown.edu
 
 .. _Python: http://python.org/
-.. _mpltools: http://readthedocs.org/docs/mpltools/en/latest/
+.. _mpltools: http://tonysyu.github.com/mpltools
 .. _Matplotlib: http://matplotlib.sourceforge.net/
 .. _skimage: http://scikits-image.org/
 .. _NumPy: http://numpy.scipy.org/
