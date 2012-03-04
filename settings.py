@@ -2,7 +2,7 @@
 # Note: All configuration keys have to be in caps.
 AUTHOR = u'Tony S. Yu'
 SITENAME = u"Tony S. Yu"
-SITEURL = 'http://tonysyu.com'
+SITEURL = 'http://tonysyu.github.com'
 SITETAG = u":-T"
 COPYRIGHT = "&copy; 2012 Tony S. Yu."
 TIMEZONE = "America/New_York"
@@ -36,5 +36,8 @@ STATIC_PATHS = ['images', 'includes']
 #FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 
 # Tracker ID for Google Analytics
-#GOOGLE_ANALYTICS = 'Tracker ID'
+GOOGLE_ANALYTICS = 'UA-29631580-1'
+
+# Disqus "shortname" for comments
+DISQUS_SHORTNAME = 'tonysyu'
 

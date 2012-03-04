@@ -20,5 +20,7 @@
         {{ article.date.strftime('%B %d, %Y') }} by {{ AUTHOR }}
     </h2>
 
+    {% include 'lib/disqus.html' %}
+
 {% endblock %}
 
