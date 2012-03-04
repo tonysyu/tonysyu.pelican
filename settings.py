@@ -30,7 +30,7 @@ LINKS = (('About me', 'pages/about-me.html'),
 ALT_LINKS = (('github', 'http://github.com/tonysyu'),)
 
 # static paths will be copied under the same name
-#STATIC_PATHS = ["pictures",]
+STATIC_PATHS = ['images', 'includes']
 
 # A list of files to copy from the source to the destination
 #FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
