@@ -44,9 +44,8 @@ Alternatively, you can set the color cycle of the plot axes:
    for shift in phase_shift:
        plt.plot(x, np.sin(x - shift), lw=3)
 
-I tend to prefer this method because the loop definition is a bit simpler
-(i.e., no call to ``zip``). I've wrapped the creation of a color cycling from
-a colormap in utility package called mpltools_:
+I prefer this method because the loop definition is a bit simpler (i.e., no
+call to ``zip``). I've added this method to a utility package called mpltools_:
 
 .. code-block:: python
 
@@ -59,7 +58,8 @@ a colormap in utility package called mpltools_:
 
 The cycle_cmap_ function doesn't really save that much typing, but I find it
 easier to read, nonetheless. Also, it has some pre-defined limits for colormaps
-to prevent use of very-light colors (i.e., low-contrast on white backgrounds).
+to prevent use of very-light colors (which have low-contrast on white
+backgrounds).
 
 
 Choosing colors for a varying parameter
