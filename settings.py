@@ -6,15 +6,14 @@ SITEURL = 'http://tonysyu.github.com'
 SITETAG = u":-T"
 COPYRIGHT = "&copy; 2012 Tony S. Yu."
 TIMEZONE = "America/New_York"
-
 #LOGOIMAGE = 'theme/logo.png'
 #LOGOTEXT = u":-T"
 
 GITHUB_URL = 'http://github.com/tonysyu/'
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
-LOCALE = ""
 DEFAULT_PAGINATION = 2
+ARTICLE_PERMALINK_STRUCTURE = '/%Y/'
 
 #FEED_RSS = 'feeds/all.rss.xml'
 #CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
