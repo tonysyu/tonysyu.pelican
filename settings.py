@@ -13,7 +13,8 @@ GITHUB_URL = 'http://github.com/tonysyu/'
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
 DEFAULT_PAGINATION = 2
-ARTICLE_PERMALINK_STRUCTURE = '/%Y/'
+# Setting this permalink structure screws up links in "pages" somehow.
+#ARTICLE_PERMALINK_STRUCTURE = '/%Y/'
 
 #FEED_RSS = 'feeds/all.rss.xml'
 #CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
