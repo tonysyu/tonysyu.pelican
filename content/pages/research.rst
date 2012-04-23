@@ -19,16 +19,22 @@ Fog capture
 -----------
 
 Fog capture is desirable as a water resource in remote areas that receive
-a large amount of fog, such as the Namib desert and the mountains of Peru. In
-addition, fog removal is attractive around roadways and airports to to improve
-visibility and reduce traffic accidents & delays. Finally, fog can ruin the
-favorable wetting properties of hydrophobic, micro-textured substrates.
+a large amount of fog, such as the `Namib desert`_  and the `mountains of
+Peru`_. In addition, fog removal is attractive around roadways and airports to
+to improve visibility and reduce traffic accidents & delays. On smaller scales,
+fog can ruin the favorable wetting properties of hydrophobic, micro-textured
+substrates.
 
 For this project, I constructed a wind tunnel for imaging flows with
 micron-sized droplets suspended in air (i.e. fog). In order to characterize the
-flow and measure the accumulation of water on substrates on flat and
-micro-textured, I implemented particle-tracking and circle-finding algorithms
-in Python.
+flow and measure the accumulation of water on flat and micro-textured
+substrates, I implemented particle-tracking and circle-finding algorithms in
+Python.
+
+.. _Namib desert:
+   http://www.nature.com/nature/journal/v414/n6859/abs/414033a0.html
+
+.. _mountains of Peru: http://www.fogquest.org/?page_id=44
 
 
 Ph.D. Research at MIT
