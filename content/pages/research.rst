@@ -169,14 +169,25 @@ about my swimmer:
 Publications
 ============
 
+-  Tony S. Yu,
+   "Solidification in a thin liquid film: Growing Alq3 needles via
+   methanol-vapor annealing",
+   *PhD thesis*, MIT, 2011.
+
 -  Renaud Trouilloud, Tony S. Yu, A. E. Hosoi, and Eric Lauga,
-   Soft Swimming: Exploiting Deformable Interfaces for Low Reynolds Number
-   Locomotion, *Physical Review Letters* 101, (2008)
+   "Soft Swimming: Exploiting Deformable Interfaces for Low Reynolds Number
+   Locomotion", *Physical Review Letters* 101, 2008.
+
+-  Tony S. Yu,
+   "Elastic Tail Propulsion at Low Reynolds Number",
+   *Master's thesis*, MIT, 2007.
+
 
 -  Tony S. Yu, Eric Lauga, and A. E. Hosoi,
-   Experimental investigations of elastic-tail swimming at low Reynolds number.
-   *Physics of Fluids* 18, (2006).
+   "Experimental investigations of elastic-tail swimming at low Reynolds
+   number."
+   *Physics of Fluids* 18, 2006.
 
 -  Charles Kutscher, Nate Thomas and Tony Yu,
    Analysis of a Subatmospheric Flash Power Cycle.
-   *Geothermal Resources Council Transactions* 29, (2005).
+   *Geothermal Resources Council Transactions* 29, 2005.
