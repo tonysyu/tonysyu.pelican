@@ -9,10 +9,11 @@ Post-doctoral Research at Brown University
 with Prof. Kenny Breuer (Winter 2011--Present)
 
 .. image:: images/research/fog_tunnel_thumb.png
-   :target: images/research/fog_tunnel.png
+   :target: http://tonysyu.github.com/pages/figure-fog-tunnel.html
 
 .. image:: images/research/accumulation_on_textured_and_flat_thumb.jpg
-   :target: images/research/accumulation_on_textured_and_flat.jpg
+   :target:
+      http://tonysyu.github.com/pages/figure-fog-accumulation-on-substrate.html
 
 
 Fog capture
@@ -44,10 +45,11 @@ with Ph.D. advisor A. E. Hosoi and Prof. Vladimir Bulović
 (Fall 2007--Fall 2010)
 
 .. image:: images/research/needle_sequence_thumb.png
-   :target: images/research/needle_sequence.png
+   :target:
+      http://tonysyu.github.com/pages/figure-measuring-the-growth-of-needles.html
 
 .. image:: images/research/film_evolution_thumb.png
-   :target: images/research/film_evolution.png
+   :target: http://tonysyu.github.com/pages/figure-evolution-of-thin-film.html
 
 
 Simulations of organic-crystal-needle formation via solvent-vapor annealing
@@ -80,6 +82,7 @@ MIT 18.358: Hydrodynamics and Elasticity (class project)
 with Prof. Christophe Clanet and Prof. Sunghwan "Sunny" Jung (Spring 2008)
 
 .. image:: images/research/flag_sequence.png
+   :target: http://tonysyu.github.com/pages/figure-shapes-of-hanging-flag.html
 
 Static shapes and instability of flags conveying fluid
 ------------------------------------------------------
@@ -102,8 +105,8 @@ MIT 18.358: Hydrodynamic Stability and Turbulence (Class Project)
 
 with Prof. Eric Lauga (Spring 2007)
 
-.. image:: images/research/flappingsequence.jpg
-   :target: images/research/flappingsequence_750px.jpg
+.. image:: images/research/flappingsequence_thumb.jpg
+   :target: http://tonysyu.github.com/pages/figure-wake-behind-flapper.html
 
 Transition from drag to thrust in a flapping foil
 -------------------------------------------------
@@ -133,15 +136,15 @@ Master's Research at MIT
 with thesis advisor A. E. Hosoi and Prof. Eric Lauga (Fall 2004--Fall 2006)
 
 .. image:: images/research/swimmer_experiment_thumb.png
-   :target: images/research/swimmer_experiment.png
+   :target: http://tonysyu.github.com/pages/figure-elastic-tail-swimmer.html
 
 
 .. image:: images/research/swimmer_tail_diagram_thumb.png
-   :target: images/research/swimmer_tail_diagram.png
+   :target: http://tonysyu.github.com/pages/figure-elastic-tail-swimmer.html
 
 
 .. image:: images/research/swimmer_data_thumb.png
-   :target: images/research/swimmer_data.png
+   :target: http://tonysyu.github.com/pages/figure-propulsion-data.html
 
 
 Elastic-tail swimming at low Reynolds number
