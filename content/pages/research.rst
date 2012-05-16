@@ -21,9 +21,9 @@ Fog capture
 
 Fog capture is desirable as a water resource in remote areas that receive
 a large amount of fog, such as the `Namib desert`_  and the `mountains of
-Peru`_. In addition, fog removal is attractive around roadways and airports to
-to improve visibility and reduce traffic accidents & delays. On smaller scales,
-fog can ruin the favorable wetting properties of hydrophobic, micro-textured
+Peru`_. In addition, fog removal can improve visibility around roadways and
+airports---thus, reducing traffic accidents and delays. On smaller scales, fog
+can ruin the favorable wetting properties of hydrophobic, micro-textured
 substrates.
 
 For this project, I constructed a wind tunnel for imaging flows with
