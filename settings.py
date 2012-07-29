@@ -33,7 +33,7 @@ ALT_LINKS = (('github', 'http://github.com/tonysyu'),)
 STATIC_PATHS = ['images', 'includes']
 
 # A list of files to copy from the source to the destination
-#FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+FILES_TO_COPY = [('CNAME', 'CNAME')]
 
 # Tracker ID for Google Analytics
 GOOGLE_ANALYTICS = 'UA-29631580-1'
