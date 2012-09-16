@@ -172,7 +172,7 @@ about my swimmer:
 Publications
 ============
 
--  Tony S. Yu, Joonsik Park, Hyuneui Lim, and Kenneth S. Breuer
+-  Tony S. Yu, Joonsik Park, Hyuneui Lim, and Kenneth S. Breuer,
    "Fog Deposition and Accumulation on Smooth and Textured Hydrophobic
    Surfaces",
    *Langmuir* 28, 2012
