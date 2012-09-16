@@ -172,6 +172,11 @@ about my swimmer:
 Publications
 ============
 
+-  Tony S. Yu, Joonsik Park, Hyuneui Lim, and Kenneth S. Breuer
+   "Fog Deposition and Accumulation on Smooth and Textured Hydrophobic
+   Surfaces",
+   *Langmuir* 28, 2012
+
 -  Tony S. Yu,
    "Solidification in a thin liquid film: Growing Alq3 needles via
    methanol-vapor annealing",
@@ -184,7 +189,6 @@ Publications
 -  Tony S. Yu,
    "Elastic Tail Propulsion at Low Reynolds Number",
    *Master's thesis*, MIT, 2007.
-
 
 -  Tony S. Yu, Eric Lauga, and A. E. Hosoi,
    "Experimental investigations of elastic-tail swimming at low Reynolds
