@@ -22,9 +22,8 @@ a liberal arts school, which is a bit strange (or maybe strangely
 appropriate?).
 
 Currently, I'm a postdoctoral research associate at Brown University
-researching methods of enhancing fog capture. In the near-ish future, I'll be
-looking for a position focused on software development for data and numerical
-analysis.
+investigating evaporation near contact lines. In the near-ish future, I'll be
+developing software for scientific computing applications.
 
 
 Contact Info
