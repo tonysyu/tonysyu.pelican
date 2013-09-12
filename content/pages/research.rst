@@ -6,7 +6,7 @@ Research
 Post-doctoral Research at Brown University
 ==========================================
 
-with Prof. Kenny Breuer (Winter 2011--Present)
+with Prof. Kenny Breuer (Winter 2011--Winter 2012)
 
 .. image:: images/research/fog_tunnel_thumb.png
    :target: http://tonysyu.github.com/pages/figure-fog-tunnel.html
@@ -171,6 +171,10 @@ about my swimmer:
 
 Publications
 ============
+
+-  Tony S. Yu, Vladimir Bulović, A. E. Hosoi,
+   "Coarsening and solidification via solvent-annealing in thin liquid films",
+   *Journal of Fluid Mechanics* 723, May 2013.
 
 -  Tony S. Yu, Joonsik Park, Hyuneui Lim, and Kenneth S. Breuer,
    "Fog Deposition and Accumulation on Smooth and Textured Hydrophobic
