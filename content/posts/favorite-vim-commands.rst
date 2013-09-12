@@ -4,6 +4,7 @@ Favorite vim commands
 
 :tags: vim
 :status: draft
+:date: 2013-12-31
 
 
 Normal mode

@@ -1,7 +1,9 @@
 =========
 Math test
 =========
+
 :status: draft
+:date: 2013-12-31
 
 Inline math defined using Sphinx role: :math:`\vec{F} = m\vec{a}`.
 
