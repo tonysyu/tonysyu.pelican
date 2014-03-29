@@ -4,7 +4,7 @@ AUTHOR = u'Tony S. Yu'
 SITENAME = u"Tony S. Yu"
 SITEURL = 'http://tonysyu.github.com'
 SITETAG = u":-T"
-COPYRIGHT = "&copy; 2012 Tony S. Yu."
+COPYRIGHT = "&copy; 2014 Tony S. Yu."
 TIMEZONE = "America/New_York"
 #LOGOIMAGE = 'theme/logo.png'
 #LOGOTEXT = u":-T"
@@ -19,12 +19,13 @@ DEFAULT_PAGINATION = 2
 #FEED_RSS = 'feeds/all.rss.xml'
 #CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
-LINKS = (('About me', 'pages/about-me.html'),
-         ('Research', 'pages/research.html'),
-         ('Articles', 'index.html'),
-         ('Design', 'pages/design.html'),
-         #('Art', 'pages/art.html'),
-         )
+LINKS = (
+    ('About me', 'pages/about-me.html'),
+    ('Research', 'pages/research.html'),
+    ('Articles', 'index.html'),
+    ('Design', 'pages/design.html'),
+    #('Art', 'pages/art.html'),
+ )
 
 # currently unused:
 ALT_LINKS = (('github', 'http://github.com/tonysyu'),)
@@ -40,4 +41,3 @@ GOOGLE_ANALYTICS = 'UA-29631580-1'
 
 # Disqus "shortname" for comments
 DISQUS_SHORTNAME = 'tonysyu'
-
