@@ -30,8 +30,13 @@ LINKS = (
 # currently unused:
 ALT_LINKS = (('github', 'http://github.com/tonysyu'),)
 
+CUSTOM_CSS = 'static/custom.css'
 # static paths will be copied under the same name
-STATIC_PATHS = ['images', 'includes']
+STATIC_PATHS = ['images', 'includes', 'extra']
+# Note that both EXTRA_PATH_METADATA and STATIC_PATHS are required
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/custom.css'}
+}
 
 # A list of files to copy from the source to the destination
 # FILES_TO_COPY = [('CNAME', 'CNAME')]
