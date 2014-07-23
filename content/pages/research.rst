@@ -73,7 +73,7 @@ favorably with experimental measurements. See my `PhD thesis`_ for details.
    :target: `PhD thesis`_
    :alt: Crystal growth thesis
 
-.. _PhD thesis: includes/tsy_phd_mech_2010.pdf
+.. _PhD thesis: {filename}/includes/tsy_phd_mech_2010.pdf
 
 
 MIT 18.358: Hydrodynamics and Elasticity (class project)
@@ -122,7 +122,7 @@ pictures with almost no text.
 
 Note: At the 2008 APS DFD meeting, `Teis Schnipper`_ presented a similar experiment with amazing results.
 
-.. _final presentation: includes/SoapFilm.pdf
+.. _final presentation: {filename}/includes/SoapFilm.pdf
 .. _vortex street:
    http://en.wikipedia.org/wiki/Von_K%C3%A1rm%C3%A1n_vortex_street
 .. _soap film tunnel:
@@ -165,8 +165,8 @@ about my swimmer:
    :target: `master's thesis`_
    :alt: Elastic tail master's thesis
 
-.. _quals presentation: includes/Quals.pdf
-.. _master's thesis: includes/yu-msthesis-me-2007.pdf
+.. _quals presentation: {filename}/includes/Quals.pdf
+.. _master's thesis: {filename}/includes/yu-msthesis-me-2007.pdf
 
 
 Publications
