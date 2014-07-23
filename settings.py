@@ -38,6 +38,8 @@ EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'}
 }
 
+PYGMENTS_STYLE = 'friendly'
+
 # A list of files to copy from the source to the destination
 # FILES_TO_COPY = [('CNAME', 'CNAME')]
 
