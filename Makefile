@@ -1,5 +1,5 @@
 html:
-	pelican -t theme -s settings.py -o github content
+	pelican -s settings.py -o github content
 
 clean:
 	rm -rf github/*

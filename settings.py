@@ -2,29 +2,29 @@
 # Note: All configuration keys have to be in caps.
 AUTHOR = u'Tony S. Yu'
 SITENAME = u"Tony S. Yu"
-SITEURL = 'http://tonysyu.github.com'
+SITEURL = 'http://tonysyu.github.io'
 SITETAG = u":-T"
 COPYRIGHT = "&copy; 2014 Tony S. Yu."
 TIMEZONE = "America/New_York"
-#LOGOIMAGE = 'theme/logo.png'
-#LOGOTEXT = u":-T"
+THEME = "/Users/tonysyu/Sites/pelican-themes/pelican-bootstrap3"
 
 GITHUB_URL = 'http://github.com/tonysyu/'
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
+DISPLAY_PAGES_ON_MENU = False
 DEFAULT_PAGINATION = 2
-# Setting this permalink structure screws up links in "pages" somehow.
-#ARTICLE_PERMALINK_STRUCTURE = '/%Y/'
 
-#FEED_RSS = 'feeds/all.rss.xml'
-#CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+MENUITEMS = (
+    ('About me', '/pages/about-me.html'),
+    ('Research', '/pages/research.html'),
+    ('Articles', '/index.html'),
+    ('Design', '/pages/design.html'),
+ )
 
 LINKS = (
-    ('About me', 'pages/about-me.html'),
-    ('Research', 'pages/research.html'),
-    ('Articles', 'index.html'),
-    ('Design', 'pages/design.html'),
-    #('Art', 'pages/art.html'),
+    ('Enthought', 'http://www.enthought.com/'),
+    ('scikit-image', 'http://http://scikit-image.org/'),
+    ('matplotlib', 'http://matplotlib.sourceforge.net/'),
  )
 
 # currently unused:
