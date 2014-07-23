@@ -9,7 +9,7 @@ Music
 Actually, this isn't my music, but it's about me: `Supa Dupa`_'s "Yu saves us
 from a bear, part 1 and 2":
 
-.. image:: images/art/supadupa.jpg
+.. image:: {filename}/images/art/supadupa.jpg
     :alt: Supa Dupa plays "Yu saves us from a bear, pt. 1 and 2"
     :target: http://www.youtube.com/watch?v=C5uJvlcKOGU&feature=related
 
@@ -22,7 +22,7 @@ Sculpture
 Bunny and Monkey
 ----------------
 
-.. image:: images/art/BunnyAndMonkey.jpg
+.. image:: {filename}/images/art/BunnyAndMonkey.jpg
     :width: 200
 
 Made of Sculpey, and painted with oils.
@@ -50,13 +50,13 @@ the meaningless drivel.
 Dog
 ---
 
-.. image:: images/art/thumbnails/Dog1.jpg
+.. image:: {filename}/images/art/thumbnails/Dog1.jpg
    :target: images/art/Dog1.jpg
 
-.. image:: images/art/thumbnails/Dog2.jpg
+.. image:: {filename}/images/art/thumbnails/Dog2.jpg
    :target: images/art/Dog2.jpg
 
-.. image:: images/art/thumbnails/Dog3.jpg
+.. image:: {filename}/images/art/thumbnails/Dog3.jpg
    :target: images/art/Dog3.jpg
 
 This is the only sculpture that I have pictures of. I started this piece in the
@@ -77,14 +77,14 @@ I gave this piece to my friend Wes when I left Birmingham.
 Hide
 ----
 
-.. image:: images/art/thumbnails/Hide.jpg
+.. image:: {filename}/images/art/thumbnails/Hide.jpg
    :target: images/art/Hide.jpg
    :alt: Professor Hiam hiding
 
-.. image:: images/art/thumbnails/HideTony.jpg
+.. image:: {filename}/images/art/thumbnails/HideTony.jpg
    :target: images/art/HideTony.jpg
    :alt: me hiding
-.. image:: images/art/thumbnails/HideBo.jpg
+.. image:: {filename}/images/art/thumbnails/HideBo.jpg
    :target: images/art/HideBo.jpg
    :alt: Bo hiding
 
@@ -100,11 +100,11 @@ friend Mike has the two drawings on the left (or at least I hope he does).
 Still Life
 ----------
 
-.. image:: images/art/thumbnails/Lemons.jpg
+.. image:: {filename}/images/art/thumbnails/Lemons.jpg
    :target: images/art/Lemons.jpg
    :alt: lemons
 
-.. image:: images/art/thumbnails/HandsAndFeet.jpg
+.. image:: {filename}/images/art/thumbnails/HandsAndFeet.jpg
    :target: images/art/HandsAndFeet.jpg
    :alt: sketches of hands and feet
 
@@ -117,7 +117,7 @@ drawing class.
 Landscape
 ---------
 
-.. image:: images/art/thumbnails/Landscape.jpg
+.. image:: {filename}/images/art/thumbnails/Landscape.jpg
    :target: images/art/Landscape.jpg
    :alt: Landscape at the Birmingham Botanical Gardens
 
@@ -130,13 +130,13 @@ Birmingham Botanical Gardens.
 Portraits
 ---------
 
-.. image:: images/art/thumbnails/ColorfulPortrait.jpg
+.. image:: {filename}/images/art/thumbnails/ColorfulPortrait.jpg
    :target: images/art/ColorfulPortrait.jpg
 
-.. image:: images/art/thumbnails/ThoughtfulPortrait.jpg
+.. image:: {filename}/images/art/thumbnails/ThoughtfulPortrait.jpg
    :target: images/art/ThoughtfulPortrait.jpg
 
-.. image:: images/art/thumbnails/SweetOldLady.jpg
+.. image:: {filename}/images/art/thumbnails/SweetOldLady.jpg
    :target: images/art/Sweet Old Lady.jpg
 
 After finishing the figure drawing class at UAB, I wanted to take a drawing
@@ -164,10 +164,10 @@ dropped by on her.
 Bellybutton
 -----------
 
-.. image:: images/art/thumbnails/PastelBellybutton.jpg
+.. image:: {filename}/images/art/thumbnails/PastelBellybutton.jpg
    :target: images/art/PastelBellybutton.jpg
 
-.. image:: images/art/thumbnails/PaintBellybutton.jpg
+.. image:: {filename}/images/art/thumbnails/PaintBellybutton.jpg
    :target: images/art/PaintBellybutton.jpg
 
 So what can I say? I have a bellybutton fetish.
@@ -183,16 +183,16 @@ the right was "painted" with latex house paint.
 Nudes
 -----
 
-.. image:: images/art/thumbnails/SepiaNude.jpg
+.. image:: {filename}/images/art/thumbnails/SepiaNude.jpg
    :target: images/art/SepiaNude.jpg
 
-.. image:: images/art/thumbnails/SanguineNude.jpg
+.. image:: {filename}/images/art/thumbnails/SanguineNude.jpg
    :target: images/art/SanguineNude.jpg
 
-.. image:: images/art/thumbnails/BlueNude.jpg
+.. image:: {filename}/images/art/thumbnails/BlueNude.jpg
    :target: images/art/BlueNude.jpg
 
-.. image:: images/art/thumbnails/BWNude.jpg
+.. image:: {filename}/images/art/thumbnails/BWNude.jpg
    :target: images/art/BWNude.jpg
 
 Here are some figure drawings I made during my class at UAB. The class met
@@ -202,7 +202,7 @@ posing and he, um,...got aroused; he never came back. Sorry I don't have any
 drawings of the male models posted; naked men just look awkward.
 
 
-.. image:: images/art/thumbnails/LyingNude.jpg
+.. image:: {filename}/images/art/thumbnails/LyingNude.jpg
    :target: images/art/LyingNude.jpg
    :alt: in your the face
 

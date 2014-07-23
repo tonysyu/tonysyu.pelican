@@ -33,7 +33,7 @@ colors from the "cool" colormap to color each curve:
 
    plt.show()
 
-.. image:: images/posts/2012/line-color-cycling-1.png
+.. image:: {filename}/images/posts/2012/line-color-cycling-1.png
 
 Alternatively, you can set the color cycle of the plot axes:
 
@@ -92,7 +92,7 @@ label those rates with different colors:
 
    plt.show()
 
-.. image:: images/posts/2012/line-color-cycling-2.png
+.. image:: {filename}/images/posts/2012/line-color-cycling-2.png
 
 To simplify this process, I wrote a simple factory function (function that
 returns a function) called color_mapper_:

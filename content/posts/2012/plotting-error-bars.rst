@@ -22,7 +22,7 @@ measurement. Typically, you would just call matplotlib's `errorbar` function:
 
 which produces the following plot:
 
-.. image:: images/posts/2012/plotting-error-bars-1.png
+.. image:: {filename}/images/posts/2012/plotting-error-bars-1.png
 
 The numerous error bars make the plot really noisy, and, in my opinion, they're
 really distracting. Instead, you could use matplotlib's `fillbetween` to
@@ -53,7 +53,7 @@ Continuing with the data and imports from the first code block, you can use the 
 
 which gives:
 
-.. image:: images/posts/2012/plotting-error-bars-2.png
+.. image:: {filename}/images/posts/2012/plotting-error-bars-2.png
 
 With the fill method, you lose information about the direction of the error
 (especially if you have errors in both x and y), but for most use cases, this

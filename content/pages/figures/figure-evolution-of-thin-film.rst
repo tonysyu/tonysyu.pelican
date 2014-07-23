@@ -3,7 +3,7 @@ Figure: Evolution of thin film
 ==============================
 
 
-.. image:: images/research/film_evolution.png
+.. image:: {filename}/images/research/film_evolution.png
 
 Simulations of evolving thin film with a solid needle growing from the left.
 Initially, the fluid film has a uniform thickness with a slight roughness. The

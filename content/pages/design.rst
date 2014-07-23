@@ -11,7 +11,7 @@ contribute web logos for random sites (listed below from newest to oldest).
 Scikits-image Logo and Banner
 =============================
 
-.. image:: images/design/skimage_logo.png
+.. image:: {filename}/images/design/skimage_logo.png
     :target: scikits-image_
 
 I'm a core developer for scikits-image_, which is an image-processing library.
@@ -31,7 +31,7 @@ matplotlib_).
 Matplotlib Banner
 =================
 
-.. image:: images/design/mpl_logo.png
+.. image:: {filename}/images/design/mpl_logo.png
     :target: matplotlib_
 
 I'm an occasional contributor to matplotlib_, so when someone on the mailing
@@ -52,7 +52,7 @@ at the top).
 GAME_ Logo and Banner
 =====================
 
-.. image:: images/design/game_banner.png
+.. image:: {filename}/images/design/game_banner.png
     :target: GAME_
 
 I was GAME_ webmaster at one point in time. The first thing I did was redesign

@@ -2,7 +2,7 @@
 Figure: Shapes of hanging flag
 ==============================
 
-.. image:: images/research/flag_sequence.png
+.. image:: {filename}/images/research/flag_sequence.png
 
 Images of a long, thin sheet, *i.e.* "flag" (black) clamped to a jet-nozzle
 (green in image). Water, which flows along one side of the flag, induces

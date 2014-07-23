@@ -3,7 +3,7 @@ Figure: Fog accumulation on substrate
 =====================================
 
 
-.. image:: images/research/accumulation_on_textured_and_flat.jpg
+.. image:: {filename}/images/research/accumulation_on_textured_and_flat.jpg
 
 Water drops on a substrate with both textured (top-half) and smooth
 (bottom-half) regions. We use dark-field illumination so that surfaces parallel

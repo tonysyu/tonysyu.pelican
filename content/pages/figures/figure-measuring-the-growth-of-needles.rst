@@ -2,7 +2,7 @@
 Figure: Measuring the growth of needles
 =======================================
 
-.. image:: images/research/needle_sequence.png
+.. image:: {filename}/images/research/needle_sequence.png
 
 Top: Successive snapshots of a cluster of needles growing during
 solvent-annealing. The top-left needle from the cluster is tracked over time in

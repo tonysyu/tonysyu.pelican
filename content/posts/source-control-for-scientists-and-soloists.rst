@@ -75,7 +75,7 @@ You're already trying to fake it!
 
 Here are some files from the code base I adopted.
 
-.. image:: images/posts/2013/duplicates_directory.png
+.. image:: {filename}/images/posts/2013/duplicates_directory.png
 
 You can see there are some newer versions of some files, but the author didn't
 want get rid of the older files ... just in case. Or wait, are some parts of
@@ -86,7 +86,7 @@ do extra work: I'm lazy.
 Let's look closer at the two duplicates at the bottom: ``id_paths.m`` and
 ``id_paths2.m``. Here's is a ``diff`` of those two files:
 
-.. image:: images/posts/2013/id_paths_diff.png
+.. image:: {filename}/images/posts/2013/id_paths_diff.png
 
 Note that these files were a few hundred lines each, but the **only**
 difference between these two files are the lines highlighted in red. If there's
@@ -103,7 +103,7 @@ You don't delete enough code!
 Sometimes you add debugging code when you're developing your algorithms, but
 the final product shouldn't have the code, so you do this:
 
-.. image:: images/posts/2013/commented_out_code.png
+.. image:: {filename}/images/posts/2013/commented_out_code.png
 
 Notice the return statement in the middle of that code block. What you don't
 see above is that there are a few hundred more lines of code that never get

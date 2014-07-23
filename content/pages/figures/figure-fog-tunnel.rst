@@ -3,7 +3,7 @@ Figure: Fog tunnel
 ==================
 
 
-.. image:: images/research/fog_tunnel.png
+.. image:: {filename}/images/research/fog_tunnel.png
 
 Fog tunnel for imaging the flow and deposition of water droplets onto
 substrates. We use an ultrasonic nebulizer (which basically just vibrates
