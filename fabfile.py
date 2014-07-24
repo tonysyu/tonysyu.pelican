@@ -20,29 +20,22 @@ TARGET_DIR = os.path.join(ABS_ROOT_DIR, 'content')
 REMOTE = 'origin'
 BRANCH = 'master'
 
+
 # Commands
-def html(output=None):
+def html():
     """Generates the pelican static site"""
-
-    if not output:
-        cmd = "pelican -s {0} {1}".format(ABS_SETTINGS_FILE, TARGET_DIR)
-    else:
-        cmd = "pelican -s {0} -o {1} {2}".format(ABS_SETTINGS_FILE, output,
-                                                 TARGET_DIR)
-
+    cmd = "pelican -s {0} {1}".format(ABS_SETTINGS_FILE, TARGET_DIR)
     local(cmd)
 
 
-def destroy(output=None):
+def clean():
     """Destroys the pelican static site"""
 
-    if not output:
-        cmd = "rm -r {0}".format(os.path.join(ABS_ROOT_DIR, OUTPUT_PATH))
-    else:
-        cmd = "rm -r {0}".format(output)
+    cmd = "rm -r {0}".format(os.path.join(ABS_OUTPUT_PATH, '*'))
 
     with settings(warn_only=True):
         result = local(cmd)
+
     if result.failed:
         puts("Already deleted")
 
