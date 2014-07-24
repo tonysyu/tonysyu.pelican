@@ -17,6 +17,8 @@ ABS_ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 ABS_SETTINGS_FILE = os.path.join(ABS_ROOT_DIR, SETTINGS_FILE)
 ABS_OUTPUT_PATH = os.path.join(ABS_ROOT_DIR, OUTPUT_PATH)
 TARGET_DIR = os.path.join(ABS_ROOT_DIR, 'content')
+REMOTE = 'origin'
+BRANCH = 'master'
 
 # Commands
 def html(output=None):
@@ -75,28 +77,10 @@ def git_commit_all(msg):
 
 def publish():
     """Generates and publish the new site in github pages"""
-    master_branch = "master"
-    publish_branch = "gh-pages"
-    remote = "origin"
-
-    # Push original changes to master
-    #push(remote, master_branch)
-
-    # Change to gh-pages branch
-    git_change_branch(publish_branch)
-
-    # Merge master into gh-pages
-    git_merge_branch(master_branch)
-
-    # Generate the html
     html(ABS_ROOT_DIR)
 
-    # Commit changes
+    # Commit changes and push
     now = time.strftime("%d %b %Y %H:%M:%S", time.localtime())
-    git_commit_all("Publication {0}".format(now))
-
-    # Push to gh-pages branch
-    git_push(remote, publish_branch)
-
-    # go to master
-    git_change_branch(master_branch)
+    with lcd(ABS_OUTPUT_PATH):
+        git_commit_all("Publication {0}".format(now))
+        git_push(REMOTE, BRANCH)
