@@ -8,6 +8,8 @@ COPYRIGHT = "&copy; 2014 Tony S. Yu."
 TIMEZONE = "America/New_York"
 THEME = "/Users/tonysyu/Sites/pelican-themes/pelican-bootstrap3"
 
+OUTPUT_PATH = 'output'
+
 GITHUB_URL = 'http://github.com/tonysyu/'
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True

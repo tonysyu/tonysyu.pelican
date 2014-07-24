@@ -8,7 +8,7 @@ Basic Use
 =========
 
 This website is built using `Pelican`_.  Pages are written in either
-`Markdown`_ (a.k.a. "md") or `reStructureText`_ (a.k.a. "rst"). To generate
+`Markdown`_ (a.k.a. "md") or `reStructuredText`_ (a.k.a. "rst"). To generate
 html, just run:
 
     pelican path/to/content

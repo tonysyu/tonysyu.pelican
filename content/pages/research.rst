@@ -172,6 +172,9 @@ about my swimmer:
 Publications
 ============
 
+-  Stéfan van der Walt, et al. "scikit-image: Image processing in Python",
+   *PeerJ* (2014). `Link <http://dx.doi.org/10.7717/peerj.453>`_
+
 -  Tony S. Yu, Vladimir Bulović, A. E. Hosoi,
    "Coarsening and solidification via solvent-annealing in thin liquid films",
    *Journal of Fluid Mechanics* 723, May 2013.

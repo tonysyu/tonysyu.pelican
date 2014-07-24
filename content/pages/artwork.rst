@@ -51,13 +51,13 @@ Dog
 ---
 
 .. image:: {filename}/images/art/thumbnails/Dog1.jpg
-   :target: images/art/Dog1.jpg
+   :target: {filename}/images/art/Dog1.jpg
 
 .. image:: {filename}/images/art/thumbnails/Dog2.jpg
-   :target: images/art/Dog2.jpg
+   :target: {filename}/images/art/Dog2.jpg
 
 .. image:: {filename}/images/art/thumbnails/Dog3.jpg
-   :target: images/art/Dog3.jpg
+   :target: {filename}/images/art/Dog3.jpg
 
 This is the only sculpture that I have pictures of. I started this piece in the
 Spring semester of my freshman year during my first art class at
@@ -78,14 +78,14 @@ Hide
 ----
 
 .. image:: {filename}/images/art/thumbnails/Hide.jpg
-   :target: images/art/Hide.jpg
+   :target: {filename}/images/art/Hide.jpg
    :alt: Professor Hiam hiding
 
 .. image:: {filename}/images/art/thumbnails/HideTony.jpg
-   :target: images/art/HideTony.jpg
+   :target: {filename}/images/art/HideTony.jpg
    :alt: me hiding
 .. image:: {filename}/images/art/thumbnails/HideBo.jpg
-   :target: images/art/HideBo.jpg
+   :target: {filename}/images/art/HideBo.jpg
    :alt: Bo hiding
 
 I took a figure drawing class at the University of Alabama at Birmingham between
@@ -101,11 +101,11 @@ Still Life
 ----------
 
 .. image:: {filename}/images/art/thumbnails/Lemons.jpg
-   :target: images/art/Lemons.jpg
+   :target: {filename}/images/art/Lemons.jpg
    :alt: lemons
 
 .. image:: {filename}/images/art/thumbnails/HandsAndFeet.jpg
-   :target: images/art/HandsAndFeet.jpg
+   :target: {filename}/images/art/HandsAndFeet.jpg
    :alt: sketches of hands and feet
 
 These are just some academic studies. On the left, a still life with a metal
@@ -118,7 +118,7 @@ Landscape
 ---------
 
 .. image:: {filename}/images/art/thumbnails/Landscape.jpg
-   :target: images/art/Landscape.jpg
+   :target: {filename}/images/art/Landscape.jpg
    :alt: Landscape at the Birmingham Botanical Gardens
 
 I generally don't like landscapes. If I saw this painting in a gallery,
@@ -131,13 +131,13 @@ Portraits
 ---------
 
 .. image:: {filename}/images/art/thumbnails/ColorfulPortrait.jpg
-   :target: images/art/ColorfulPortrait.jpg
+   :target: {filename}/images/art/ColorfulPortrait.jpg
 
 .. image:: {filename}/images/art/thumbnails/ThoughtfulPortrait.jpg
-   :target: images/art/ThoughtfulPortrait.jpg
+   :target: {filename}/images/art/ThoughtfulPortrait.jpg
 
 .. image:: {filename}/images/art/thumbnails/SweetOldLady.jpg
-   :target: images/art/Sweet Old Lady.jpg
+   :target: {filename}/images/art/Sweet Old Lady.jpg
 
 After finishing the figure drawing class at UAB, I wanted to take a drawing
 class at BSC. But the only drawing class offered that semester was Drawing II,
@@ -165,10 +165,10 @@ Bellybutton
 -----------
 
 .. image:: {filename}/images/art/thumbnails/PastelBellybutton.jpg
-   :target: images/art/PastelBellybutton.jpg
+   :target: {filename}/images/art/PastelBellybutton.jpg
 
 .. image:: {filename}/images/art/thumbnails/PaintBellybutton.jpg
-   :target: images/art/PaintBellybutton.jpg
+   :target: {filename}/images/art/PaintBellybutton.jpg
 
 So what can I say? I have a bellybutton fetish.
 
@@ -184,16 +184,16 @@ Nudes
 -----
 
 .. image:: {filename}/images/art/thumbnails/SepiaNude.jpg
-   :target: images/art/SepiaNude.jpg
+   :target: {filename}/images/art/SepiaNude.jpg
 
 .. image:: {filename}/images/art/thumbnails/SanguineNude.jpg
-   :target: images/art/SanguineNude.jpg
+   :target: {filename}/images/art/SanguineNude.jpg
 
 .. image:: {filename}/images/art/thumbnails/BlueNude.jpg
-   :target: images/art/BlueNude.jpg
+   :target: {filename}/images/art/BlueNude.jpg
 
 .. image:: {filename}/images/art/thumbnails/BWNude.jpg
-   :target: images/art/BWNude.jpg
+   :target: {filename}/images/art/BWNude.jpg
 
 Here are some figure drawings I made during my class at UAB. The class met
 once a week for about 4 hours and we had a female model one week, and then
@@ -203,7 +203,7 @@ drawings of the male models posted; naked men just look awkward.
 
 
 .. image:: {filename}/images/art/thumbnails/LyingNude.jpg
-   :target: images/art/LyingNude.jpg
+   :target: {filename}/images/art/LyingNude.jpg
    :alt: in your the face
 
 Finally, here's a nude I painted in my painting class at BSC. Just for the
