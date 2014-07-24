@@ -70,7 +70,7 @@ def git_commit_all(msg):
 
 def publish():
     """Generates and publish the new site in github pages"""
-    html(ABS_ROOT_DIR)
+    html()
 
     # Commit changes and push
     now = time.strftime("%d %b %Y %H:%M:%S", time.localtime())
