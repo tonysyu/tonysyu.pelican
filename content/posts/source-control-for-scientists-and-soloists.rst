@@ -159,19 +159,16 @@ commit -a``).
 
 So let's assumed that we're just committing everything for now. This basically
 saves all your changes... "But wait, I've been saving my changes in my
-editor/IDE; hell, it even auto-saves." The power of committing your changes
-to git is that you save the history. This concept is much more powerful than
-something like `Time Machine`_. You had a reason for changing your code: You
-should document it (e.g., "Fix for when the signal is all zeros", "Update code
-to <this paper that improves on the original algorithm>"). Sure you could add
-a code comment to (poorly) document a few lines that changed, but what if those
-changes spanned multiple parts of the code. Your commit (and *descriptive*
-commit message) groups those logical changes together.
+editor/IDE; hell, it even auto-saves."
 
-Note: For the remainder of this article, I might use "commit" and "version"
-interchangeably. "commit", the noun, is more-or-less synonymous with version
-(although you might consider a "version" a collection of commits), whereas
-"commit", the verb, is a way of saving a "version".
+The power of committing your changes to git is that you save the history. This
+concept is much more powerful than something like `Time Machine`_. You had
+a reason for changing your code; you should document it (e.g., "Fix for when
+the signal is all zeros", "Update code to <this paper that improves on the
+original algorithm>"). Sure you could add a code comment to (poorly) document
+a few lines that changed, but what if those changes spanned multiple parts of
+the code. Your commit (and *descriptive* commit message) groups those logical
+changes together.
 
 *After* you get into the habit of committing your changes using
 ``git commit --all``, you'll want to evolve towards explicitly calling
@@ -227,8 +224,9 @@ pertains to the (very descriptive) commit message you're going to write.
 
 (or: "Argh, I wish I hadn’t made these changes!")
 
-I know my function didn't behave this way before,... wait am I sure about that.
-Well, you can always go back to old code by checking out an older version.
+"I know my function didn't behave this way before,... wait am I sure about
+that?" Well, you can always go back to old code by checking out an older
+version.
 
 .. image:: {filename}/images/posts/2014/git_checkout.png
 
@@ -239,11 +237,9 @@ the old code and figure out what changed.
 ``git blame``: When and why was this line added?
 ------------------------------------------------
 
-(or: "Why did I write this?")
-
 We've all looked at some part of our code and forgotten why we added needed it.
-``git blame`` allows you to look at when it was added, and your commit message
-tells you why.
+``git blame`` allows you to look each line of a file and figure out when it was
+added, and your commit message tells you why you added it.
 
 .. image:: {filename}/images/posts/2014/git_blame.png
 
@@ -251,38 +247,12 @@ Note that this only works well if your commit messages are informative.
 Otherwise, you still don't know why you wrote that perplexing line of code.
 
 
-``git bisect``: When did this *behavior* change?
-------------------------------------------------
-
-(or: "When did this stop working?")
-
-Warning: Using ``git bisect`` is bit more difficult than some of the other
-commands. So if you're new to this, I'd wait to really try it out, but it's
-definitely a tool worth learning as you get more comfortable.
-
-Ok, so you know that an old version of the code worked differently before
-(you know because you can go back to old versions with ``git checkout``), but
-what was the actual change in the code that caused the change in behavior.
-
-``git bisect`` allows you to efficiently find that change. Just write a test
-that indicates the change in behavior. A test that gives a thumbs up or down is
-ideal, but sometimes you just might have a plotting script that clearly shows
-the change in behavior. Just identify the commit that has the "good" behavior
-and ``git bisect`` will keep checking out different versions of the code, and
-you just give that version a thumbs up or down.
-
-``git bisect`` is as smart as you wish you always were: It looks at the version
-right in the middle of what you know to be good and bad. If the version in the
-middle is good, then the defect must have been added in the later half; if it's
-bad, then the defect must have happened in the earlier half. Keeping doing this
-until you narrow it down to the precise version.
-
-
 Summary
 =======
 
 * Stop trying to invent your own version control
-  (``my_script.py``/``my_script_2.py``, ``solver.py``/``solver_old.py``)
+  (i.e. don't write file that look like: ``my_script.py``/``my_script_2.py``,
+  ``solver.py``/``solver_old.py``)
 * Reproducibility and history are very important (especially for scientists)
 * The basic usage of git is pretty simple. (If you're not comfortable on the
   command-line though, there are tools to help you out---see below.)
