@@ -3,7 +3,6 @@ Source control for scientists and soloists
 ==========================================
 
 :tags: git, craftsmanship
-:status: draft
 :date: 2014-07-25
 
 
