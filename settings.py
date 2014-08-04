@@ -39,6 +39,18 @@ EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'}
 }
 
+ABOUT_BANNER = """
+<img class="sidebar"
+    src="http://tonysyu.github.io/images/tonysyu.jpg"
+    alt="Tony S. Yu">
+<p>
+    I'm a developer, (former?) engineer, and altogether good guy in Austin, TX,
+    USA.
+
+    Thanks for visiting!
+</p>
+"""
+
 SIDEBAR_BANNER = """
 <a href="https://www.enthought.com/services/training/python-training-on-demand">
     <img class="sidebar" src="https://www.enthought.com/static/img/Enthought-training-on-demand-logo-2014_colored-2000x555-2.png" alt="Enthought Training on Demand">
@@ -47,6 +59,8 @@ SIDEBAR_BANNER = """
 
 PYGMENTS_STYLE = 'friendly'
 
+# This seemed like a good idea, but it's pretty noisy.
+# GITHUB_USER = 'tonysyu'
 GITHUB_URL = 'http://github.com/tonysyu/'
 
 # A list of files to copy from the source to the destination

@@ -3,6 +3,10 @@ Research
 ========
 
 
+Once upon a time, I was an experimental and analytical researcher in fluid
+mechanics. This is what's left of that chapter. (Heavy, right?)
+
+
 Post-doctoral Research at Brown University
 ==========================================
 
@@ -173,35 +177,41 @@ Publications
 ============
 
 -  Stéfan van der Walt, et al. "scikit-image: Image processing in Python",
-   *PeerJ* (2014). `Link <http://dx.doi.org/10.7717/peerj.453>`_
+   *PeerJ* (2014). `PeerJ link <http://dx.doi.org/10.7717/peerj.453>`_,
+   `ArXiv Link <http://arxiv.org/abs/1407.6245>`_
 
 -  Tony S. Yu, Vladimir Bulović, A. E. Hosoi,
    "Coarsening and solidification via solvent-annealing in thin liquid films",
    *Journal of Fluid Mechanics* 723, May 2013.
+   `JFM link <http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=8878029&fileId=S0022112013001158>`_,
+   `DSpace Link <http://dspace.mit.edu/handle/1721.1/87630>`_
 
 -  Tony S. Yu, Joonsik Park, Hyuneui Lim, and Kenneth S. Breuer,
    "Fog Deposition and Accumulation on Smooth and Textured Hydrophobic
-   Surfaces",
-   *Langmuir* 28, 2012
+   Surfaces", *Langmuir* 28, 2012
+   `Langmuir link <http://pubs.acs.org/doi/abs/10.1021/la301901m>`_
 
 -  Tony S. Yu,
    "Solidification in a thin liquid film: Growing Alq3 needles via
-   methanol-vapor annealing",
-   *PhD thesis*, MIT, 2011.
+   methanol-vapor annealing", *PhD thesis*, MIT, 2011.
+   `PhD link <http://dspace.mit.edu/handle/1721.1/65167>`_
 
 -  Renaud Trouilloud, Tony S. Yu, A. E. Hosoi, and Eric Lauga,
    "Soft Swimming: Exploiting Deformable Interfaces for Low Reynolds Number
    Locomotion", *Physical Review Letters* 101, 2008.
+   `PRL link
+   <http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.101.048102>`_
 
 -  Tony S. Yu,
    "Elastic Tail Propulsion at Low Reynolds Number",
    *Master's thesis*, MIT, 2007.
+   `Masters link <http://dspace.mit.edu/handle/1721.1/38700>`_
 
 -  Tony S. Yu, Eric Lauga, and A. E. Hosoi,
    "Experimental investigations of elastic-tail swimming at low Reynolds
-   number."
-   *Physics of Fluids* 18, 2006.
+   number." *Physics of Fluids* 18, 2006.
+   `PoF link <http://dspace.mit.edu/handle/1721.1/37325>`_
 
 -  Charles Kutscher, Nate Thomas and Tony Yu,
-   Analysis of a Subatmospheric Flash Power Cycle.
+   "Analysis of a Subatmospheric Flash Power Cycle".
    *Geothermal Resources Council Transactions* 29, 2005.
