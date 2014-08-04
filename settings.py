@@ -42,10 +42,11 @@ EXTRA_PATH_METADATA = {
 ABOUT_BANNER = """
 <img class="sidebar"
     src="http://tonysyu.github.io/images/tonysyu.jpg"
+    width="150"
     alt="Tony S. Yu">
 <p>
-    I'm a developer, (former?) engineer, and altogether good guy in Austin, TX,
-    USA.
+    I'm a software developer, (former?) engineer, and altogether good guy in
+    Austin, TX, USA.
 
     Thanks for visiting!
 </p>

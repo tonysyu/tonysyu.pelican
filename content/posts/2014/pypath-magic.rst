@@ -75,8 +75,9 @@ Python path from IPython_.
 How to use ``pypath-magic``
 ===========================
 
-The ``pypath-magic`` package adds an `IPython magic`_ (err... Jupyter_ magic?)
-command for easily manipulating your Python path.
+The ``pypath-magic`` `module <https://github.com/tonysyu/pypath-magic>`_ adds
+an `IPython magic`_ (err... Jupyter_ magic?) command for easily manipulating
+your Python path.
 
 
 Load the extension
