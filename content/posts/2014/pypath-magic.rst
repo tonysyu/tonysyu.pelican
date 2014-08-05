@@ -9,6 +9,8 @@ pypath-magic
 ``%pypath``: An IPython magic for manipulating your Python path
 ===============================================================
 
+*Edit: Now with support for Python 3!*
+
 You're a pragmatic Python developer, so you extract the logically related bits
 of your code into functions and group those functions together into modules.
 
@@ -242,8 +244,8 @@ Or if you want to go `direct to the source`_::
 Dependencies
 ============
 
-* Python 2.7
-* IPython
+* Python 2.7/3.4 (older versions probably work, but this is not tested)
+* IPython >= 1.0
 
 
 License
