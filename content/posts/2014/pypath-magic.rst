@@ -9,8 +9,8 @@ pypath-magic
 ``%pypath``: An IPython magic for manipulating your Python path
 ===============================================================
 
-So you're finally starting to write reusable code---extracting logically
-related bits into functions and grouping those functions together into modules.
+You're a pragmatic Python developer, so you extract the logically related bits
+of your code into functions and group those functions together into modules.
 
 Now, **how do you actually import those modules**? If you're in the directory containing those modules, you're good to go:
 
@@ -41,8 +41,8 @@ this:
    ImportError: No module named plot_helpers
 
 
-``sys.path``
-------------
+Quickfix: ``sys.path``
+----------------------
 
 The quick fix here is to append to ``sys.path``:
 
@@ -57,7 +57,7 @@ The quick fix here is to append to ``sys.path``:
    [Success]
 
 **But**, the next time you fire up python, you get the same ``ImportError`` we
-saw before.
+saw above.
 
 
 Persistent changes to your path
@@ -68,14 +68,14 @@ To make persistent changes to your Python path, you'll have to
 site-packages directory`_.
 
 These solutions are annoying for most users and downright intimidating to newer
-developers. ``pypath`` provides a simple solution for manipulating your
-Python path from IPython_.
+developers. With ``%pypath``, you can easily manipulate your Python path from
+IPython_.
 
 
-How to use ``pypath-magic``
+How to use ``pypath_magic``
 ===========================
 
-The ``pypath-magic`` `module <https://github.com/tonysyu/pypath-magic>`_ adds
+The ``pypath_magic`` `module <https://github.com/tonysyu/pypath-magic>`_ adds
 an `IPython magic`_ (err... Jupyter_ magic?) command for easily manipulating
 your Python path.
 
@@ -83,7 +83,8 @@ your Python path.
 Load the extension
 ------------------
 
-To use the magic command, just load the extension from an IPython session:
+To use the ``%pypath`` magic command, just load the extension from an IPython
+session:
 
 .. code-block:: python
 
@@ -198,12 +199,14 @@ paths, or we can delete using string paths:
 .. code-block:: python
 
    In [15]: %pypath -d 1
+   Deleted u'/absolute/path/to/stuff' from path.
 
    In [16]: %pypath
    0. /absolute/path/to/useful-modules
    1. /absolute/path/to/things
 
-   In [17]: %pypath -d path/to/stuff
+   In [17]: %pypath -d path/to/useful-modules
+   Deleted u'/absolute/path/to/useful-modules' from path.
 
    In [18]: %pypath
    0. /absolute/path/to/things
@@ -229,7 +232,7 @@ Or if you're feeling lucky::
 
    $ pip install git+https://github.com/tonysyu/pypath-magic
 
-Or if you <3 github::
+Or if you want to go `direct to the source`_::
 
    $ git clone https://github.com/tonysyu/pypath-magic.git
    $ cd pypath-magic
@@ -258,3 +261,4 @@ New BSD (a.k.a. Modified BSD). See LICENSE_ file in this directory for details.
    http://ipython.org/ipython-doc/dev/interactive/tutorial.html#magic-functions
 .. _Jupyter: http://jupyter.org/
 .. _LICENSE: https://github.com/tonysyu/pypath-magic/blob/master/LICENSE
+.. _direct to the source: https://github.com/tonysyu/pypath-magic
