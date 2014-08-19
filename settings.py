@@ -77,4 +77,4 @@ GITHUB_URL = 'http://github.com/tonysyu/'
 GOOGLE_ANALYTICS = 'UA-29631580-1'
 
 # Disqus "shortname" for comments
-DISQUS_SHORTNAME = 'tonysyu'
+DISQUS_SITENAME = 'tonysyu'
