@@ -16,6 +16,8 @@ REVERSE_CATEGORY_ORDER = True
 DISPLAY_PAGES_ON_MENU = False
 DEFAULT_PAGINATION = 2
 
+ADDTHIS_PROFILE = 'ra-53f2c41705dd9003'
+
 MENUITEMS = (
     ('About me', '/pages/about-me.html'),
     ('Research', '/pages/research.html'),
