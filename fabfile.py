@@ -1,7 +1,7 @@
 import os
 import time
 
-from fabric.api import local, lcd, settings
+from fabric.api import local, lcd, settings, task
 from fabric.utils import puts
 
 try:
@@ -21,13 +21,15 @@ REMOTE = 'origin'
 BRANCH = 'master'
 
 
-# Commands
-def html():
+@task
+def html(settings_file=None):
     """Generates the pelican static site"""
-    cmd = "pelican -s {0} {1}".format(ABS_SETTINGS_FILE, TARGET_DIR)
+    settings_file = settings_file or ABS_SETTINGS_FILE
+    cmd = "pelican -s {0} {1}".format(settings_file, TARGET_DIR)
     local(cmd)
 
 
+@task
 def clean():
     """Destroys the pelican static site"""
 
@@ -40,6 +42,7 @@ def clean():
         puts("Already deleted")
 
 
+@task
 def serve():
     """Serves the site in the development webserver"""
     print(ABS_OUTPUT_PATH)
@@ -68,6 +71,7 @@ def git_commit_all(msg):
     local("git commit -m \"{0}\"".format(msg))
 
 
+@task
 def publish():
     """Generates and publish the new site in github pages"""
     html()
@@ -77,3 +81,11 @@ def publish():
     with lcd(ABS_OUTPUT_PATH):
         git_commit_all("Publication {0}".format(now))
         git_push(REMOTE, BRANCH)
+
+
+@task
+def preview():
+    """Generate preview version of the site with hard links to local files."""
+    settings_file = os.path.join(ABS_ROOT_DIR, 'preview_config.py')
+    html(settings_file)
+    serve()
