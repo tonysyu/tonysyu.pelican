@@ -21,12 +21,19 @@ a.image-reference, a.image-reference:hover {
 
 img.sidebar {
     max-width: 100%;
+    padding: 5px 10px;
 }
 
 
-img#about {
-    padding: 0px;
-    padding-right: 20px;
+div#about {
+    overflow: hidden;
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+p.sidebar{
+    margin: 5px 0px;
+    font-size: 85%;
 }
 
 pre {
@@ -42,4 +49,14 @@ tt, literal-block, code {
 
 .panel-body {
     padding: 15px 0px;
+}
+
+.split-left {
+    float: left;
+    width: 50%;
+}
+
+.split-right {
+    float: right;
+    width: 50%;
 }

@@ -42,20 +42,22 @@ EXTRA_PATH_METADATA = {
 }
 
 ABOUT_BANNER = """
-<div id="about" style="padding-left: 0px; padding-top: 30px;">
-    <img class="sidebar"
-        src="http://tonysyu.github.io/images/tonysyu.jpg"
-        width="120px"
-        align="left"
-        alt="Tony S. Yu">
-        <p style="padding-top: 20px; margin-top: 20px;">
-        Software developer, (former?) engineer, and all-around good guy in
-        Austin, TX, USA.
+<div id="about">
+    <div class="split-left">
+        <img class="sidebar"
+            src="http://tonysyu.github.io/images/tonysyu.jpg"
+            width="120px"
+            align="left"
+            alt="Tony S. Yu">
+    </div>
 
-    </p>
+    <div class="split-right">
+        <p class="sidebar">
+            Software developer, engineer, and all-around good guy in
+            Austin, TX, USA.
+        </p>
+    </div>
 </div>
-
-<br>
 """
 
 SIDEBAR_BANNER = """
