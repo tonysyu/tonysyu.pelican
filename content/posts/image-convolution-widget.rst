@@ -3,7 +3,6 @@ IPython (Jupyter) widgets: An image convolution demo
 ====================================================
 
 :tags: IPython, scikit-image, matplotlib, scipy, numpy
-:status: draft
 :date: 2014-09-01
 
 
@@ -818,7 +817,7 @@ References
 
 .. _Notebook version of this article:
 .. _Download Notebook:
-   http://tonysyu.github.io/includes/Image_convolution_demo.ipynb
+   http://tonysyu.github.io/includes/image_convolution_demo.ipynb
 
 .. _Gaussian filter:
    http://scikit-image.org/docs/dev/api/skimage.filter.html#gaussian-filter
