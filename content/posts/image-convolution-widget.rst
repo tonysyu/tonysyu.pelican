@@ -69,7 +69,7 @@ The basic idea of image convolution is that you take an image like this:
    :alt: Blurred camera-man image
 
 
-... and filter the image using a convolution "kernel" that looks like
+... and filter the image using a convolution **"kernel"** that looks like
 this:
 
 .. code-block:: python
@@ -417,8 +417,8 @@ Technically, convolution requires flipping the kernel horizontally and
 vertically, but that's not really an important detail here.
 
 
-Marking where the kernel is located with ``iter_kernel_labels``
----------------------------------------------------------------
+Labeling the kernel position with ``iter_kernel_labels``
+--------------------------------------------------------
 
 The whole point of this widget is to visualize how convolution works, so
 we need a way to display where the convolution kernel is located at any
