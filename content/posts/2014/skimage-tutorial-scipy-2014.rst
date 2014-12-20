@@ -34,6 +34,6 @@ Enjoy!
 .. _scikit-image: http://scikit-image.org/
 .. _SciPy 2014: https://conference.scipy.org/scipy2014/
 .. _notebooks on github:
-   https://github.com/scikit-image/skimage-tutorials/tree/master/scipy-2014
+   https://github.com/scikit-image/skimage-tutorials/tree/master/2014-scipy
 .. _EuroSciPy 2013:
    https://github.com/scipy-lectures/scipy-lecture-notes/tree/master/advanced/image_processing

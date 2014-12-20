@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# NOTE: This project is configured for Pelican 3.x and is known to fail on
+#       Pelican 2.x.
+#
 # Note: All configuration keys have to be in caps.
 AUTHOR = u'Tony S. Yu'
 SITENAME = u"Tony S. Yu"
@@ -9,12 +12,12 @@ TIMEZONE = "America/New_York"
 
 OUTPUT_PATH = 'output'
 CUSTOM_CSS = 'static/custom.css'
-THEME = "/Users/tonysyu/Sites/pelican-themes/pelican-bootstrap3"
+THEME = "/Users/tyu/sites/pelican-themes/pelican-bootstrap3"
 
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
 DISPLAY_PAGES_ON_MENU = False
-DEFAULT_PAGINATION = 2
+DEFAULT_PAGINATION = 5
 
 ADDTHIS_PROFILE = 'ra-53f2c41705dd9003'
 
@@ -23,13 +26,13 @@ MENUITEMS = (
     ('Research', '/pages/research.html'),
     ('Articles', '/index.html'),
     ('Design', '/pages/design.html'),
- )
+)
 
 LINKS = (
     ('Enthought', 'http://www.enthought.com/'),
     ('scikit-image', 'http://http://scikit-image.org/'),
     ('matplotlib', 'http://matplotlib.sourceforge.net/'),
- )
+)
 
 # currently unused:
 ALT_LINKS = (('github', 'http://github.com/tonysyu'),)
