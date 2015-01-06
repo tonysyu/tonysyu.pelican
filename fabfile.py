@@ -1,5 +1,6 @@
 import os
 import time
+from shutil import copytree
 
 from fabric.api import local, lcd, settings, task
 from fabric.utils import puts
@@ -17,16 +18,27 @@ ABS_ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 ABS_SETTINGS_FILE = os.path.join(ABS_ROOT_DIR, SETTINGS_FILE)
 ABS_OUTPUT_PATH = os.path.join(ABS_ROOT_DIR, OUTPUT_PATH)
 TARGET_DIR = os.path.join(ABS_ROOT_DIR, 'content')
+RAW_CONTENT_SRC = os.path.join(ABS_ROOT_DIR, 'raw_content')
+RAW_CONTENT_DST = os.path.join(ABS_OUTPUT_PATH, 'raw_content')
 REMOTE = 'origin'
 BRANCH = 'master'
+
+
+def copy_raw_content():
+    copytree(RAW_CONTENT_SRC, RAW_CONTENT_DST)
+
+
+def build_pelican_content(settings_file):
+    settings_file = settings_file or ABS_SETTINGS_FILE
+    cmd = "pelican -s {0} {1}".format(settings_file, TARGET_DIR)
+    local(cmd)
 
 
 @task
 def html(settings_file=None):
     """Generates the pelican static site"""
-    settings_file = settings_file or ABS_SETTINGS_FILE
-    cmd = "pelican -s {0} {1}".format(settings_file, TARGET_DIR)
-    local(cmd)
+    build_pelican_content(settings_file)
+    copy_raw_content()
 
 
 @task
