@@ -1,6 +1,6 @@
 import os
 import time
-from shutil import copytree
+from shutil import copytree, rmtree
 
 from fabric.api import local, lcd, settings, task
 from fabric.utils import puts
@@ -25,6 +25,7 @@ BRANCH = 'master'
 
 
 def copy_raw_content():
+    rmtree(RAW_CONTENT_DST)  # Required because destination must not exist.
     copytree(RAW_CONTENT_SRC, RAW_CONTENT_DST)
 
 
