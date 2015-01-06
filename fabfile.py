@@ -25,7 +25,8 @@ BRANCH = 'master'
 
 
 def copy_raw_content():
-    rmtree(RAW_CONTENT_DST)  # Required because destination must not exist.
+    if os.path.exists(RAW_CONTENT_DST):
+        rmtree(RAW_CONTENT_DST)
     copytree(RAW_CONTENT_SRC, RAW_CONTENT_DST)
 
 
