@@ -63,12 +63,6 @@ ABOUT_BANNER = """
 </div>
 """
 
-SIDEBAR_BANNER = """
-<a href="https://www.enthought.com/services/training/python-training-on-demand">
-    <img class="sidebar" src="https://www.enthought.com/static/img/Enthought-training-on-demand-logo-2014_colored-2000x555-2.png" alt="Enthought Training on Demand">
-</a>
-"""
-
 PYGMENTS_STYLE = 'friendly'
 
 # This seemed like a good idea, but it's pretty noisy.
