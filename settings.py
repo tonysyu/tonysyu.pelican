@@ -5,7 +5,7 @@
 # Note: All configuration keys have to be in caps.
 AUTHOR = u'Tony S. Yu'
 SITENAME = u"Tony S. Yu"
-SITEURL = 'http://tonysyu.github.io'
+SITEURL = 'https://tonysyu.github.io'
 SITETAG = u":-T"
 COPYRIGHT = "&copy; 2014 Tony S. Yu."
 TIMEZONE = "America/New_York"
