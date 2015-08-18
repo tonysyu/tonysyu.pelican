@@ -16,7 +16,10 @@ THEME = "/Users/tyu/sites/pelican-themes/pelican-bootstrap3"
 
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
+# Suppress auto-generated links in upper nav-bar.
 DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+# Number of posts per page
 DEFAULT_PAGINATION = 5
 
 ADDTHIS_PROFILE = 'ra-53f2c41705dd9003'
@@ -32,8 +35,6 @@ MENUITEMS = (
 LINKS = (
     ('github', 'http://github.com/tonysyu'),
     ('linkedin', 'https://www.linkedin.com/pub/tony-yu/48/600/130'),
-    ('scikit-image', 'http://http://scikit-image.org/'),
-    ('matplotlib', 'http://matplotlib.sourceforge.net/'),
 )
 
 # static paths will be copied under the same name
