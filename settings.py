@@ -23,19 +23,18 @@ ADDTHIS_PROFILE = 'ra-53f2c41705dd9003'
 
 MENUITEMS = (
     ('About me', '/pages/about-me.html'),
-    ('Research', '/pages/research.html'),
     ('Articles', '/index.html'),
+    ('Code', '/pages/code.html'),
+    ('Research', '/pages/research.html'),
     ('Design', '/pages/design.html'),
 )
 
 LINKS = (
-    ('Enthought', 'http://www.enthought.com/'),
+    ('github', 'http://github.com/tonysyu'),
+    ('linkedin', 'https://www.linkedin.com/pub/tony-yu/48/600/130'),
     ('scikit-image', 'http://http://scikit-image.org/'),
     ('matplotlib', 'http://matplotlib.sourceforge.net/'),
 )
-
-# currently unused:
-ALT_LINKS = (('github', 'http://github.com/tonysyu'),)
 
 # static paths will be copied under the same name
 STATIC_PATHS = ['images', 'includes', 'extra']
